@@ -13,13 +13,17 @@
       height: 100%;
     }
     @keyframes myfirst {
-        from {opacity: 0}
-        to {opacity: 100}
+      0% {opacity: 0}
+      25%{opacity: 50}
+      50%{opacity: 100}
+      75%{opacity: 50}
+      100%{opacity: 0}
+
       }
       uu{
           font-size: 50px;
           text-align: center;
-          animation: myfirst 1s infinite;
+          animation: myfirst 3s infinite;
           position: absolute;
           width: 100%;
       }
@@ -27,6 +31,6 @@
 </head>
 <body>
 
-<uu>my first page</uu>
+<uu>My first page</uu>
   </body>
 </html>
